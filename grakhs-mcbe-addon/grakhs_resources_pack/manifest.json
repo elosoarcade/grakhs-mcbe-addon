@@ -1,0 +1,25 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Grakhs (R)",
+		"description": "Add Grakhs to Bedrock by El Oso Arcade",
+		"uuid": "235c140a-50a3-78d1-5e1d-5025b53cfb85",
+		"version": [1, 0, 5],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["El Oso Arcade"],
+		"license": "CC BY-NC-ND 4.0 - Grakhs MCBE Add-on",
+		"product_type": "addon",
+		"url": "https://github.com/elosoarcade/grakhs-mcbe-addon"
+		}
+	},
+	"modules": [
+		{
+			"description": "Add Grakhs to Bedrock by El Oso Arcade",
+			"type": "resources",
+			"uuid": "3dcc4d0c-d160-cf19-9165-489bf0fe89d6",
+			"version": [1, 0, 5]
+		}
+	]
+}

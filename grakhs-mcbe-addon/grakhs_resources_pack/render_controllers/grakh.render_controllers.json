@@ -1,0 +1,22 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.grakh": {
+            "arrays": {
+                "textures": {
+                    "Array.skins": [
+                        "Texture.grakh_1",
+                        "Texture.grakh_2",
+                        "Texture.grakh_3"
+                    ]
+                }
+            },
+            "geometry": "Geometry.default",
+            "materials": [ { "*": "Material.default" } ],
+            "textures": [ "Array.skins[query.variant]" ],
+            "part_visibility": [
+                { "*": true }
+            ]
+        }
+    }
+}

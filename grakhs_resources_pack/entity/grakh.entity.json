@@ -1,0 +1,56 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "eoa:grakh",
+            "min_engine_version": "1.8.0",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "grakh_1": "textures/entity/grakh_1",
+                "grakh_2": "textures/entity/grakh_2",
+                "grakh_3": "textures/entity/grakh_3"
+            },
+            "geometry": {
+                "default": "geometry.humanoid.custom"
+            },
+            "spawn_egg": {
+                "base_color": "#ff6463",
+                "overlay_color": "#f9e38b"
+            },
+            "scripts": {
+                "pre_animation": [
+                    "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+                ]
+            },
+            "animations": {
+                "look_at_target_default": "animation.humanoid.look_at_target.default",
+                "move": "animation.humanoid.move",
+                "riding.arms": "animation.humanoid.riding.arms",
+                "riding.legs": "animation.humanoid.riding.legs",
+                "move.arms": "animation.player.move.arms",
+                "holding": "animation.humanoid.holding",
+                "sneaking": "animation.humanoid.sneaking",
+                "bob": "animation.humanoid.bob",
+                "player_attack_bare_hand": "animation.player.attack_bare_hand",
+                "attack.positions": "animation.player.attack.positions",
+                "attack.rotations": "animation.humanoid.attack.rotations",
+                "swimming": "animation.zombie.swimming"
+            },
+            "animation_controllers": [
+                { "look_at_target": "controller.animation.humanoid.look_at_target" },
+                { "move": "controller.animation.humanoid.move" },
+                { "riding": "controller.animation.humanoid.riding" },
+                { "holding": "controller.animation.humanoid.holding" },
+                { "attack": "controller.animation.humanoid.attack" },
+                { "sneaking": "controller.animation.humanoid.sneaking" },
+                { "bob": "controller.animation.humanoid.bob" }
+            ],
+            "render_controllers": [
+                "controller.render.grakh"
+            ],
+            "enable_attachables": true
+        }
+    }
+}
