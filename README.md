@@ -5,5 +5,5 @@ Grakhs are monsters similar to piglins that spawn in all biomes during the day i
 
 ❤️ Health: 30 | ⚔️ Attack: 3 | ✨ EXP: 20
 
-This addon is optimized to run effectively on Realms and dedicated servers with minimal hardware resource consumption.
+This addon is optimized to run effectively on Realms and dedicated servers with minimal hardware resource consumption and its available in english and español.  🇬🇧 🇲🇽
 
